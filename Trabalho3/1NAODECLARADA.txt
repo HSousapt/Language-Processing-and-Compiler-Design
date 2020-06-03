@@ -1,0 +1,6 @@
+START:
+
+INT b;
+a=b;
+
+:END

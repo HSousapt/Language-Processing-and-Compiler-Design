@@ -1,0 +1,12 @@
+START:
+
+INT a;
+a=10;
+W: a;
+
+INT b;
+b=a+1;
+W: b;
+
+
+:END

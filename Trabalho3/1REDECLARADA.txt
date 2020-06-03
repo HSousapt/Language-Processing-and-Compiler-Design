@@ -1,0 +1,7 @@
+START:
+
+INT a;
+
+BOOL a;
+
+:END

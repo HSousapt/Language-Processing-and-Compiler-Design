@@ -1,0 +1,14 @@
+START:
+
+REAL a.;
+REAL b.;
+REAL c.;
+
+a.=5.0+1.0;
+b.=6.0+1.5;
+c.=a.+b.;
+
+W: "resultado é" "coisa" ;
+W: c.;
+
+:END

@@ -1,0 +1,9 @@
+START:
+BOOL a;
+BOOL b;
+a= TRUE;
+b= FALSE;
+W: a;
+W: b;
+
+:END

@@ -1,0 +1,10 @@
+START:
+
+INT a;
+INT b;
+a=10;
+b=9;
+IF (a>b) THEN {a = b;} ELSE {W: b;};
+
+
+:END

@@ -1,0 +1,39 @@
+START:
+
+BOOL a;
+REAL c.;
+INT d;
+INT e;
+INT f;
+e=10;
+
+W:"Prentende jogar este jogo?";
+R: a;
+
+
+
+IF (a==TRUE) THEN {	
+					W: "Insira um valor Real";
+					R: c.;
+					REAL b.; 
+					b.=\cos(c.); 
+					W:"Voce perdeu:"; 
+					W:c.;
+					W:"€";
+					} 
+ELSE { W: "Insira um valor Inteiro";
+	   R: d;
+		UNTIL (e<=5) DO {   
+							
+							f= d* ((1+2) - 1)*e;
+							W:"JACKPOT! Voce ganhou:";
+							W: f;
+							W: "€";
+							e--;
+
+						};
+	 };
+
+
+:END
+ 

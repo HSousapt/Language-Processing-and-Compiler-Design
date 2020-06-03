@@ -1,0 +1,41 @@
+START:
+
+INT a;
+a=3;
+INT b;
+b=0;
+
+BOOL c;
+BOOL d;
+c=TRUE;
+d=FALSE;
+
+IF(c==TRUE) THEN {
+                  UNTIL(a==0) DO {
+                                  W: "O valor de a durante o ciclo é:";
+                                  W: a; 
+                                  a--;
+                                 };
+
+                    W: "O valor de a no fim do ciclo é:";
+                    W: a;
+                };
+
+IF (d==TRUE) THEN { 
+                    d=FALSE; 
+                   }
+ELSE { IF (d==FALSE) THEN {
+                           UNTIL(b==3) DO {
+                                           W: "O valor de b durante o ciclo é:";
+                                           W: b; 
+                                           b++;
+                                          };
+
+                    W: "O valor de b no fim do ciclo é:";
+                    W: b;
+                         };
+     };
+
+
+:END
+
